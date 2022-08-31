@@ -1,0 +1,28 @@
+.standar-title-content{
+    position: relative;
+    margin-bottom: 5rem;
+}
+.standar .flag{
+    position: absolute;
+    width: 14rem;
+    height: 12rem;
+    top: -4rem;
+    left: 0;
+}
+.flag-block{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.standar .flag-block::after{
+    position: absolute;
+    background: url('../img/flag.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    width: 100%;
+    height: 100%;
+}
+.flag-block span{
+    line-height: 25px;
+}

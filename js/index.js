@@ -84,7 +84,7 @@ $('.standar-block-four').slick({
     prevArrow: false,
     nextArrow: false,
     dots: false,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed:2000,
     initialSlide: 0,
     pauseOnHover: false,
@@ -122,3 +122,5 @@ function scroll() {
 $(".back-to-top").click(function() {
     $("html, body").animate({scrollTop: 0}, 1000);
 })
+
+

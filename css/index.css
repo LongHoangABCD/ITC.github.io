@@ -4,9 +4,11 @@
     padding: 0;
 }
 body{
-    background: #f6f6f6 !important;
+    
+    background: url('../img/tuyet.gif');
     /* background: linear-gradient(42deg, rgba(180,75,250,0.7654412106639531) 0%, rgba(255,150,150,0.7598389697675946) 50%, rgba(252,176,69,0.8018557764902836) 100%); */
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     min-height: 5000px;
 }
@@ -25,7 +27,7 @@ a, a:hover{
     align-items: center;
     justify-self: center;
     padding: 5px 4rem;
-    background: url('./img/bg2.jpg') no-repeat;
+    background: url('../img/bg2.jpg') no-repeat;
     background-size: cover;
     background-position: 20%;
 }
@@ -85,14 +87,16 @@ a, a:hover{
     transition: all .5s;
 }
 .header .menu ul.ul-part li a:not(.link-child):hover{
-    background-color: #fecc09;
+    background-color: #028cca;
 }
 .header .menu ul.ul-part li:hover .menu-more{
     opacity: 1;
+    visibility: visible;
 }
 
 .header .menu ul.ul-part li .menu-more{
     opacity: 0;
+    visibility: hidden;
     transition: all 0.5s;
     position: absolute;
     top: -5rem;
@@ -107,8 +111,8 @@ ul.ul-part li .menu-more .block-more a{
     position: absolute;
     width: 70px;
     height: 70px;
-    background: rgb(242,70,69);
-    background: linear-gradient(45deg, rgba(242,70,69,1) 0%, rgba(235,192,141,1) 99%);
+    background: rgb(79,0,188);
+    background: linear-gradient(45deg, rgba(79,0,188,1) 0%, rgba(41,171,226,1) 100%);
 
     border: 3px solid white;
     font-size: 14px;
@@ -257,7 +261,7 @@ ul.ul-part li .menu-more .block-more a:nth-child(3){
 }
 
 .bg-introduce{
-    background: url('./img/abc.jpg');
+    background: url('../img/abc.jpg');
     width: 100%;
     height: 42rem;
     background-repeat: no-repeat;
@@ -284,7 +288,7 @@ ul.ul-part li .menu-more .block-more a:nth-child(3){
     width: 25rem;
     height: 100%;
     padding: 15px;
-    background: url('./img/bg.png');
+    background: url('../img/bg.png');
 }
 .slide-right img{
     width: 100%;
@@ -294,7 +298,7 @@ ul.ul-part li .menu-more .block-more a:nth-child(3){
 
 @font-face {
     font-family: myFirstFont;
-    src: url('./img/DancingScript-VariableFont_wght.ttf');
+    src: url('../img/DancingScript-VariableFont_wght.ttf');
 }
 
 
@@ -410,11 +414,14 @@ ul.ul-part li .menu-more .block-more a:nth-child(3){
     font-family: revert;
     font-style: oblique;
 }
+.standar-title a{
+    color: #710202;
+}
 .standar-block{
     width: 100%;
     height: 15rem;
     box-shadow:3px 6px 12px rgb(210, 210, 210);
-    background: url('./img/nui2.png');
+    background: url('../img/nui2.png');
 }
 .standar-text p{
     margin-bottom: 5px;
@@ -425,13 +432,13 @@ ul.ul-part li .menu-more .block-more a:nth-child(3){
 }
 
 .standar-block-two{
-    background: url('./img/nui.jpg');
+    background: url('../img/nui.jpg');
 }
 .standar-block-three{
-    background: url('./img/nui3.jpg');
+    background: url('../img/nui3.jpg');
 }
 .standar-block-four{
-    background: url('./img/nui4.jpg');
+    background: url('../img/nui4.jpg');
 }
 .standar-block-two .block-two-item,
 .standar-block-three .block-two-item,
@@ -515,7 +522,7 @@ ul.ul-part li .menu-more .block-more a:nth-child(3){
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
+	border-radius: 0;
 	background-color: #F5F5F5;
 }
 
@@ -526,7 +533,7 @@ ul.ul-part li .menu-more .block-more a:nth-child(3){
 }
 ::-webkit-scrollbar-thumb
 {
-	border-radius: 10px;
+	border-radius: 0;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #D62929;
 }
@@ -541,19 +548,19 @@ ul.ul-part li .menu-more .block-more a:nth-child(3){
     background-size: cover;
 }
 .action_1{
-    background-image: url('./img/nui.jpg') ;
+    background-image: url('../img/nui.jpg') ;
 }
 .action_2{
-    background-image: url('./img/nha-trang_1.jpg') ;
+    background-image: url('../img/nha-trang_1.jpg') ;
 }
 .action_3{
-    background-image: url('./img/bg3.png') ;
+    background-image: url('../img/bg3.png') ;
 }
 .action_4{
-    background-image: url('./img/bg4.jpg') ;
+    background-image: url('../img/bg4.jpg') ;
 }
 .action_5{
-    background-image: url('./img/bg5.jpg') ;
+    background-image: url('../img/bg5.jpg') ;
 
 }
 .action-item{
@@ -741,7 +748,7 @@ ul.ul-part li .menu-more .block-more a:nth-child(3){
 .flag-block::after{
     position: absolute;
     content: '';
-    background-image: url('./img/flag.png');
+    background-image: url('../img/flag.png');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 2;
@@ -876,13 +883,13 @@ ul.ul-part li .menu-more .block-more a:nth-child(3){
     background-color: #fff;
     position: fixed;
     top: -88px;
-    padding: 5px 10rem;
+    padding: 0px 10rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
     box-shadow: 0px 4px 12px #aaa9a9;
     transition: all 0.2s ease-in-out;
-    z-index: 100;
+    z-index: 1000;
 }
 .header-left, .header-right{
     width: 40%;
@@ -910,6 +917,7 @@ ul.ul-part li .menu-more .block-more a:nth-child(3){
     font-weight: bold;
     text-transform: uppercase;
     font-size: 25px;
+    color: #212529 !important;
 }
 .header-left a, .header-right a{
     display: block;
@@ -969,4 +977,46 @@ ul.ul-part li .menu-more .block-more a:nth-child(3){
 .text-outstanding{
     -webkit-line-clamp: 2; /* number of lines to show */
             line-clamp: 2; 
+}
+
+.responsive-header ul{
+    margin-bottom: 0;
+}
+.responsive-header li{
+    position: relative;
+    height: 100%;
+    line-height: 4.5rem;
+    min-width: 110px;
+    text-align: center;
+}
+.responsive-header li:hover .respon-header-more{
+    opacity: 1;
+    visibility: visible;
+}
+.respon-header-more{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-top: 1px solid rgb(153, 153, 153);
+    border-radius: 0 0 2px 2px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 3px 6px 9px #3d3c3c;
+}
+.respon-header-more .more-item{
+    width: 100%;
+    line-height: 2.5rem;
+    height: 2.5rem;
+    color: rgb(90, 89, 89);
+    transition: all 0.5s;
+    font-size: 12px;
+    text-transform: none;
+    
+}
+.respon-header-more .more-item:hover{
+    background: #391474;
+    color: rgb(198, 193, 193);
 }
