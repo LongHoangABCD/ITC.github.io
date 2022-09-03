@@ -4,11 +4,7 @@
     padding: 0;
 }
 body{
-    
-    background: url('../img/tuyet.gif');
-    /* background: linear-gradient(42deg, rgba(180,75,250,0.7654412106639531) 0%, rgba(255,150,150,0.7598389697675946) 50%, rgba(252,176,69,0.8018557764902836) 100%); */
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #f1f1f1 !important;
     position: relative;
     min-height: 5000px;
 }
@@ -27,9 +23,10 @@ a, a:hover{
     align-items: center;
     justify-self: center;
     padding: 5px 4rem;
-    background: url('../img/bg2.jpg') no-repeat;
+    background: url('../img/nui4.jpg') no-repeat;
     background-size: cover;
     background-position: 20%;
+    box-shadow: 0px 6px 12px #c6c6c6;
 }
 .header .logo{
     text-align: center;
@@ -109,7 +106,7 @@ ul.ul-part li .menu-more .block-more{
 }
 ul.ul-part li .menu-more .block-more a{
     position: absolute;
-    width: 70px;
+    width: 95px;
     height: 70px;
     background: rgb(79,0,188);
     background: linear-gradient(45deg, rgba(79,0,188,1) 0%, rgba(41,171,226,1) 100%);
@@ -125,15 +122,17 @@ ul.ul-part li .menu-more .block-more a{
     border-radius: 58% 42% 77% 23% / 53% 30% 70% 47% ;
     box-shadow: 0 0 12px #cdcdcd;
 }
-
+ul.ul-part li .menu-more .block-more a:hover{
+    background: #8415a6 !important;
+}
 ul.ul-part li .menu-more .block-more a:nth-child(1){
-    left: 0rem;
+    left: -1rem;
 }
 ul.ul-part li .menu-more .block-more a:nth-child(2){
     left: 5rem;
 }
 ul.ul-part li .menu-more .block-more a:nth-child(3){
-    left: 10rem;
+    left: 11rem;
 }
 
 .banner{
@@ -1012,7 +1011,7 @@ ul.ul-part li .menu-more .block-more a:nth-child(3){
     height: 2.5rem;
     color: rgb(90, 89, 89);
     transition: all 0.5s;
-    font-size: 12px;
+    font-size: 15px;
     text-transform: none;
     
 }

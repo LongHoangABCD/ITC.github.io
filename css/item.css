@@ -17,6 +17,7 @@
     box-shadow: 0 0 12px #c1c1c1;
     padding: 10px;
     background: #fff;
+    border-radius: 3px;
 }
 .standar-item .standar-item-main .wrapper{
     width: 100%;
@@ -24,16 +25,15 @@
     justify-content: space-between;
 }
 .standar-item .left-item .title{
-    background-color: #ee5978;
+    background-color: #00358d;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: start;
     color: white;
-    height: 4rem;
     font-size: 18px;
     font-weight: 500;
-    padding-left: 1rem;
+    padding: 0.7rem 1rem;
     text-transform: uppercase;
 }
 .standar-item .left-item .content ul {
@@ -129,7 +129,7 @@
     width: 7rem;
     height: 5rem;
     top: 0;
-    right: 0rem;
+    left: -7rem;
 }
 .block-tag{
     position: relative;
@@ -165,4 +165,16 @@
 }
 .block-video iframe{
     width: 100%;
+}
+.standar .standar-item{
+    padding: 0;
+}
+.main-web{
+    background: transparent;
+}
+.left-item{
+    background: white;
+}
+.standar-title a,.standar-title a:hover {
+    color: white;
 }

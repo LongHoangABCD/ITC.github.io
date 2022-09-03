@@ -1,0 +1,54 @@
+#magazine{
+    width: 95%;
+    height:752px;
+    margin: auto;
+}
+#magazine .turn-page{
+    background-color:#ccc;
+    background-size:100% 100%;
+}
+.main-web{
+    background: transparent;
+}
+body{
+    overflow-x: hidden;
+}
+.standar-title p,.standar-title p a{
+    color: white;
+    margin-bottom: 0;
+}
+.standar-title span{
+    color: white;
+    display: block;
+    font-size: 20px;
+    font-family: cursive;
+}
+.block-magazine{
+    position: relative;
+}
+.btn-pre, .btn-next{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(197, 159, 159);
+    color: white;
+    cursor: pointer;
+}
+.btn-pre{
+    top: 50%;
+    left: -2rem;
+    transform: translateY(-50%);
+}
+.btn-next{
+    top: 50%;
+    right: -2rem;
+    transform: translateY(-50%);
+}
+.btn-pre:hover, .btn-next:hover{
+    opacity: 0.8;
+}

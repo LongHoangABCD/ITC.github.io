@@ -183,3 +183,8 @@ section .contentBx .formBx .sci li img{
         height: 100%;
     }
 }
+
+body{
+    background: url('../img/bg.jpg') !important;
+    background-size: cover !important;
+}

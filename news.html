@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/danhmuc.css">
-    <link rel="stylesheet" href="./css/item.css">
     <link rel="stylesheet" href="./css/news.css">
+    <link rel="stylesheet" href="./css/item.css">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
@@ -574,6 +574,29 @@
             initialSlide: 0,
             pauseOnHover: false,
         }); 
+
+
+        $(".item-like .like").click(function() {
+            $(this).css({
+                "background-color": "#1d69f8",
+                "color" : "#fff"
+            });
+            $(this).find("a").css({
+                "color" : "#fff"
+            });
+        })
+
+        $(".item-like .dislike").click(function() {
+            $(this).css({
+                "background-color": "#e02605",
+                "color" : "#fff"
+            });
+            $(this).find("a").css({
+                "color" : "#fff"
+            });
+        })
     </script>
+    <script src="./js/disable.js"></script>
+
 </body>
 </html>

@@ -5,7 +5,7 @@ $('.banner').slick({
     prevArrow: false,
     nextArrow: false,
     dots: false,
-    autoplay:false,
+    autoplay:true,
     autoplaySpeed:1500,
     initialSlide: 1,
     pauseOnHover: false,
@@ -18,8 +18,8 @@ $('.slide-right').slick({
     prevArrow: false,
     nextArrow: false,
     dots: false,
-    autoplay:false,
-    autoplaySpeed:1500,
+    autoplay:true,
+    autoplaySpeed:2500,
     initialSlide: 1,
     pauseOnHover: false,
     fade: true
@@ -71,7 +71,7 @@ $('.block-action').slick({
     prevArrow: false,
     nextArrow: false,
     dots: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed:2000,
     initialSlide: 0,
     pauseOnHover: false,
@@ -84,7 +84,7 @@ $('.standar-block-four').slick({
     prevArrow: false,
     nextArrow: false,
     dots: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed:2000,
     initialSlide: 0,
     pauseOnHover: false,
@@ -97,7 +97,7 @@ $('.standar-block-book').slick({
     prevArrow: false,
     nextArrow: false,
     dots: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed:2000,
     initialSlide: 0,
     pauseOnHover: false,
@@ -122,5 +122,4 @@ function scroll() {
 $(".back-to-top").click(function() {
     $("html, body").animate({scrollTop: 0}, 1000);
 })
-
 
